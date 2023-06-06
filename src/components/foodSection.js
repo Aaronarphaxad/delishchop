@@ -16,7 +16,8 @@ const FoodSection = () => {
     foodImage4,
     foodImage5,
   ];
-  const isMobile = window.innerWidth <= 768;
+  const isBrowser = () => typeof window !== "undefined";
+  const isMobile = isBrowser && window.innerWidth <= 768;
 
   return (
     <section className="py-12 bg-gray-100">
