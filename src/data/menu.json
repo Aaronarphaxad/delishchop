@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Burger",
+    "description": "Delicious beef burger with cheese and veggies",
+    "price": "$9.99"
+  },
+  {
+    "name": "Jollof Rice Plate",
+    "description": "Nigerian jollof rice and gizdodo",
+    "price": "$12.50"
+  },
+  {
+    "name": "Fried Rice Plate",
+    "description": "Nigerian fried rice and gizdodo",
+    "price": "$13"
+  },
+  {
+    "name": "Fried Rice/Jollof Rice",
+    "description": "Without Gizdodo",
+    "price": "$10"
+  },
+  {
+    "name": "Combo Rice",
+    "description": "Jollof Rice and Fried Rice with Gizdodo",
+    "price": "$15"
+  },
+  {
+    "name": "Gizdodo",
+    "description": "Stewed chicken gizzards and fried plantains",
+    "price": "$5"
+  }
+]
