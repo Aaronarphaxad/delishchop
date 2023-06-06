@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -16,8 +16,9 @@ const FoodSection = () => {
     foodImage4,
     foodImage5,
   ];
+
   const isBrowser = () => typeof window !== "undefined";
-  const isMobile = isBrowser && window.innerWidth <= 768;
+  const isMobile = isBrowser() && isBrowser() && window.innerWidth <= 768;
 
   return (
     <section className="py-12 bg-gray-100">
@@ -33,7 +34,7 @@ const FoodSection = () => {
           swipeable={true}
           emulateTouch={true}
           centerMode={!isMobile}
-          centerSlidePercentage={50}
+          centerSlidePercentage={40}
           dynamicHeight={false}
           className="carousel-wrapper"
         >
