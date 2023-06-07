@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Delish Chop`,
-    description: `One stop shop to get amazing meals at a great price`,
+    description: `One stop shop to get amazing Nigerian cuisine at a great price`,
     siteUrl: `https://delishchop.com`, // Replace with your domain name
     author: `@arphy_dev`, // Replace with your twitter handle
   },
