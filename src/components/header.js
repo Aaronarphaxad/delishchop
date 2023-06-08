@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./button";
 import { Link } from "react-scroll";
+import logo from "../images/work-images/dcnewlgo.webp";
 
 const Header = () => {
   const navigation = [
@@ -14,9 +15,15 @@ const Header = () => {
         <div className="flex py-6 justify-between items-center">
           <div className="flex flex-row gap-8 items-center">
             <Link to="/">
-              <p className="text-body-lg font-bold text-neutral-900 cursor-pointer">
+              <img
+                src={logo}
+                alt="logo"
+                style={{ height: "70px", width: "100px" }}
+                className="cursor-pointer"
+              />
+              {/* <p className="text-body-lg font-bold text-neutral-900 cursor-pointer">
                 Delish Chop
-              </p>
+              </p> */}
             </Link>
           </div>
           <div className="flex flex-row gap-6">

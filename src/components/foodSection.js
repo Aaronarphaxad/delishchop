@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import foodImage1 from "../images/work-images/rice.jpg";
-import foodImage2 from "../images/work-images/logopic.jpg";
-import foodImage3 from "../images/work-images/rice.jpg";
-import foodImage4 from "../images/work-images/jollof.jpeg";
-import foodImage5 from "../images/work-images/rice.jpg";
+import foodImage1 from "../images/work-images/image0.webp";
+import foodImage2 from "../images/work-images/image1.webp";
+import foodImage3 from "../images/work-images/image2.webp";
+import foodImage4 from "../images/work-images/image3.webp";
+import foodImage5 from "../images/work-images/image4.webp";
 
 const FoodSection = () => {
   const foodImages = [
