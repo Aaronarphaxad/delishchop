@@ -16,7 +16,7 @@ const BannerSection = () => {
     <section className="relative w-full h-screen">
       <div className="absolute inset-0">
         <StaticImage
-          src="../images/work-images/delish.png"
+          src="../images/work-images/delicious-food.webp"
           alt="food"
           placeholder="blurred"
           className="object-cover w-full h-full"
