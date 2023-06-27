@@ -1,32 +1,111 @@
 [
   {
-    "name": "Burger",
-    "description": "Delicious beef burger with cheese and veggies",
-    "price": "$9.99"
+    "name": "Shrimp Fried Rice",
+    "info": {
+      "desc": "Big pan",
+      "price": "$55",
+      "desc2": "Half pan",
+      "price2": "$95"
+    }
   },
   {
-    "name": "Jollof Rice Plate",
-    "description": "Nigerian jollof rice and gizdodo",
-    "price": "$12.50"
+    "name": "Fried Rice with/o shrimp",
+    "info": {
+      "desc": "Big pan",
+      "price": "$70",
+      "desc2": "Half pan",
+      "price2": "$40"
+    }
   },
   {
-    "name": "Fried Rice Plate",
-    "description": "Nigerian fried rice and gizdodo",
-    "price": "$13"
-  },
-  {
-    "name": "Fried Rice/Jollof Rice",
-    "description": "Without Gizdodo",
-    "price": "$10"
-  },
-  {
-    "name": "Combo Rice",
-    "description": "Jollof Rice and Fried Rice with Gizdodo",
-    "price": "$15"
+    "name": "Jollof Rice",
+    "info": {
+      "desc": "Big pan",
+      "price": "$75",
+      "desc2": "Half pan",
+      "price2": "$45"
+    }
   },
   {
     "name": "Gizdodo",
-    "description": "Stewed chicken gizzards and fried plantains",
-    "price": "$5"
+    "info": {
+      "desc": "Big pan",
+      "price": "$95",
+      "desc2": "Half pan",
+      "price2": "$50"
+    }
+  },
+  {
+    "name": "Plantain",
+    "info": {
+      "desc": "Big pan",
+      "price": "$65",
+      "desc2": "Half pan",
+      "price2": "$35"
+    }
+  },
+  {
+    "name": "Soups",
+    "info": {
+      "text": "Egusi, Efo riro, ogbono, stew. Special order other soups",
+      "desc": "Large",
+      "price": "$100",
+      "desc2": "Small",
+      "price2": "$55"
+    }
+  },
+  {
+    "name": "Pounded yam",
+    "info": {
+      "desc": "10 wraps",
+      "price": "$35",
+      "desc2": "20 wraps",
+      "price2": "$55"
+    }
+  },
+  {
+    "name": "Moi Moi",
+    "info": {
+      "desc": "8 wraps",
+      "price": "$35",
+      "desc2": "16 wraps",
+      "price2": "$60"
+    }
+  },
+  {
+    "name": "Stewed chicken",
+    "info": {
+      "desc": "Small",
+      "price": "$50",
+      "desc2": "Big",
+      "price2": "$95"
+    }
+  },
+  {
+    "name": "Stewed goat meat",
+    "info": {
+      "desc": "Small",
+      "price": "$75",
+      "desc2": "Big",
+      "price2": "$135"
+    }
+  },
+  {
+    "name": "Stewed chicken",
+    "info": {
+      "desc": "Small",
+      "price": "$50",
+      "desc2": "Big",
+      "price2": "$95"
+    }
+  },
+  {
+    "name": "Stewed beef",
+    "info": {
+      "desc": "Small",
+      "price": "$65",
+      "desc2": "Big",
+      "price2": "$105"
+    }
   }
 ]
